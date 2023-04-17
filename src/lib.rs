@@ -7,7 +7,7 @@
 
 use {
     linear_map::LinearMap,
-    noah::{
+    platform_lib_noah::noah_api::{
         anon_creds::{
             ac_commit, ac_commit_with_key, ac_keygen_commitment, ac_keygen_issuer, ac_keygen_user,
             ac_open_commitment, ac_reveal, ac_sign, ac_verify, ac_verify_commitment, ACCommitment,
